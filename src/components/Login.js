@@ -25,7 +25,7 @@ const Login = () => {
   const handleButtonClick = async (e) => {
     e.preventDefault();
     try {
-      const url = isSignInForm ? "http://localhost:8080/api/auth" : "http://localhost:8080/api/users";
+      const url = isSignInForm ? "https://richpanel-r1-assignement-shivanand.onrender.com/api/auth" : "https://richpanel-r1-assignement-shivanand.onrender.com/api/users";
       const { data: res } = await axios.post(url, data);
       console.log(res.data);
       localStorage.setItem("token", res.data);

@@ -17,7 +17,7 @@ const Route = () => {
       element: <Connect/>,
     },
     {
-      path: "/flow",
+      path: "/end",
       element: <EndPage />,
     },
     {

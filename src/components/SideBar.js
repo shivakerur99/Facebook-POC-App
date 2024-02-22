@@ -11,7 +11,7 @@ import dw from "../assets/images/dw.png";
 const SideBar = () => {
  const navigate = useNavigate();
   const handleFacebookIntegration= ()=>{
-    navigate("/flow");
+    navigate("/end");
   }
   return (
     <div className="w-20 h-screen bg-[#004e96]">
