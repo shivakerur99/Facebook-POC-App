@@ -13,13 +13,13 @@ const MessengerPage = () => {
         <div className="flex">
           <SideBar />
           <Conversation />
-          <MessengerBox name="Harika" />
+          <MessengerBox name="Elon" />
           <div className="w-96">
-            <ProfileBox name="Harika" onlineStatus="Online" />
+            <ProfileBox name="Elon" onlineStatus="Online" />
             <UserCard
-              firstname="Harika"
-              email="harika@richpanel.com"
-              lastname="Reddy"
+              firstname="Elon"
+              email="Elon@richpanel.com"
+              lastname="shivakerur"
             />
           </div>
         </div>

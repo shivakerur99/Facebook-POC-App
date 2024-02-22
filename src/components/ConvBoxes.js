@@ -5,7 +5,7 @@ const ConvBoxes = ({ name, type, review, message ,time }) => {
     <div className="border p-4 hover:bg-gray-200">
       <div className="flex justify-between">
         <div className="flex items-center mr-4">
-          <input type="checkbox" />
+          <input type="checkbox" className="size-5" />
         </div>
         <div className="flex flex-col -ml-24">
           <span className="font-semibold">{name}</span>

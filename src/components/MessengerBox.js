@@ -20,17 +20,17 @@ const MessengerBox = ({ name }) => {
               />
             </span>
             <span>
-              <MessengerComponent text="I was unable to return my product" />
+              <MessengerComponent text="i want know best product in your app" />
             </span>
           </div>
           <div className="">
-            <span className="text-xs -mb-3 text-slate-600 ml-4">Harika - Jan 05, 12:22 PM</span>
+            <span className="text-xs -mb-3 text-slate-600 ml-4">Elon - Jan 05, 12:22 PM</span>
           </div>
         </div>
         <div className="p-5 flex flex-1 flex-col items-end">
           <div className="flex flex-col gap-2">
             <span>
-              <MessengerComponent text="What is the product ? Is it Screen Protector" />
+              <MessengerComponent text="What is the product ? Is it laptop" />
             </span>
           </div>
           <div>
@@ -56,11 +56,11 @@ const MessengerBox = ({ name }) => {
               />
             </span>
             <span>
-              <MessengerComponent text="Yes" />
+              <MessengerComponent text="Yes is it available" />
             </span>
           </div>
           <div>
-            <span className="text-xs text-slate-600 ml-4">Harika - Jan 05, 12:22 PM</span>
+            <span className="text-xs text-slate-600 ml-4">Elon - Jan 05, 12:22 PM</span>
           </div>
         </div>
         <div className="p-6 flex justify-around mb-1">
